@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Phone Directory</title>
+</head>
+   <body>
+      <div class="centerText margin20  fontsizeB20">Phone Directory</div>
+      <div class="centerText">
+         <div class="centerText inputContent">
+            <div class="txtLeft marginTB40 boldfont">
+               <div class="txtLeft">
+                  <input type="text" id="name" value="" placeholder="Contact Name"/>
+                  <input type="number" id="mobile" value="" placeholder="Mobile Number"/>
+                  <input type="email" id="email" value="" placeholder="Email"/>
+                  <input type="submit" class="btn" id="submit" value="Add Contact"/>
+                  <div id="" class="dontdisplay paddingtop10 centerText">Invalid Input!</div>
+               </div>
+            </div>
+         </div>
+            <div class="searchbox">
+                <label>Search contact by Mobile No.</label>
+                <input type="number" id="mobile" value=""/>
+            </div>
+         <div class="tab padding10 margintop40 cursorpointer" id="contactsSummary">Contacts Summary</div>
+         <div id="contactSummary" class="contactSummary">
+            <table id="summaryTable">
+               <thead>
+                  <tr>
+                     <th id="nameColumn">Name</th>
+                     <th>Mobile</th>
+                     <th>Email</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Admin</td>
+                     <td>9999999999</td>
+                     <td>admin@xyzcompany.com</td>
+                  </tr>
+               </tbody>
+            </table>
+            <div class="dontdisplay">Results Not Found</div>
+         </div>
+      </div>
+      <script>
+        window.contactsList = [{
+            name: 'Admin',
+            mobile: '9999999999',
+            email: 'admin@xyzcompany.com'
+         }];
+      </script>
+      <script src="script.js"></script>
+   </body>
+</html>

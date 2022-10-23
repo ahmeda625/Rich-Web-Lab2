@@ -1,0 +1,156 @@
+.cursorpointer {
+    cursor: pointer;
+}
+
+.dontdisplay {
+    display: none;
+}
+  
+.padB10 {
+    padding-bottom: 10px;
+}
+
+.marginT10 {
+    margin-top: 10px;
+}
+
+.marginB20 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+  
+.fontsizeB20 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boldfont {
+    font-weight: bold;
+}
+
+.d-inbl {
+    display: inline-block;
+}
+
+.padding10  {
+    padding-left: 10px;
+}
+
+  input:focus {
+    outline: none !important;
+}
+.margintop40 {
+    margin-top: 40px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.marginT10 {
+    margin-top: 10px;
+}
+
+.padT5 {
+    padding-top: 5px;
+}
+  
+.paddingtop10 {
+    padding-top: 5px;
+}
+
+.padding10 {
+    padding-left: 10px;
+}
+
+.margin20 {
+    margin: 20px;
+}
+
+.margintop5 {
+    margin-top: 5px;
+}
+
+.marginTB40 {
+    margin: 40px 0;
+}
+
+.marginT30 {
+    margin-top: 30px;
+}
+
+.marginT20 {
+    margin-top: 20px;
+}
+
+.txtLeft {
+    text-align: left;
+}
+
+.paddingtop10 {
+    padding-top: 10px;
+}
+
+.activeTab {
+    background: #4cb5f3;
+    border-radius: 10px;
+}
+.tab {
+    font-weight: bold;
+    padding: 5px 25px;
+  }
+  
+input {
+    padding: 5px;
+    font-size: 12px;
+}
+
+li {
+    list-style: none;
+}
+
+.searchbox {
+    padding-top: 50px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    min-width: 150px;
+    text-align: left;    
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.inputContent {
+    background: #ADD8E6;
+    border: 2px solid #025773;
+    padding: 0px 20px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.contactSummary {
+    width: 40%;
+    margin: auto;
+}
