@@ -1,0 +1,13 @@
+.btn{
+    background-color: grey;
+    border-radius: 10px;
+}
+.list-group{
+    width: 500px;
+}
+
+.form-inline {
+    width: 800px;
+    padding: 50px;
+    padding-left: 200px;;
+}
